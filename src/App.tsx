@@ -1,6 +1,6 @@
-import react, { useState } from "react";
+import { useState } from "react";
 import QuestionCard from "./components/QuestionCard";
-import { fetchQuizQuestions, Question } from "./API";
+import { fetchQuizQuestions } from "./API";
 import { Difficulty, QuestionsState } from "./API";
 import { GLobalStyle, Wrapper } from "./App.style";
 
